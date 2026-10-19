@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Impacto Digital</title>
+
+<style>
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f0ff;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #7b4bb7;
+    color: white;
+    text-align: center;
+    padding: 35px 20px;
+}
+
+header h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+nav {
+    margin-top: 25px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 8px 12px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+section {
+    background-color: white;
+    margin: 30px 0;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+section h2 {
+    color: #7b4bb7;
+    margin-bottom: 20px;
+}
+
+section h3 {
+    color: #9b6bd3;
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+
+/* GALERÍA */
+
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.galeria div {
+    text-align: center;
+}
+
+.galeria img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.galeria p {
+    margin-top: 8px;
+    font-weight: bold;
+}
+
+/* FORMULARIO */
+
+.formulario {
+    margin-top: 25px;
+}
+
+.formulario label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: #7b4bb7;
+}
+
+.formulario input,
+.formulario textarea,
+.formulario select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+}
+
+.formulario textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+.formulario button {
+    margin-top: 20px;
+    padding: 12px 25px;
+    background-color: #7b4bb7;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.formulario button:hover {
+    background-color: #9b6bd3;
+}
+
+/* PIE DE PÁGINA */
+
+footer {
+    background-color: #7b4bb7;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-top: 30px;
+}
+
+/* ADAPTACIÓN PARA CELULARES */
+
+@media (max-width: 600px) {
+
+    header h1 {
+        font-size: 30px;
+    }
+
+    nav a {
+        display: block;
+        margin: 8px;
+    }
+
+    .galeria {
+        grid-template-columns: 1fr;
+    }
+
+    section {
+        padding: 20px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header id="inicio">
+
+    <h1>Impacto Digital</h1>
+
+    <p>Conectando mentes, equilibrando redes...</p>
+
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#productos">Productos o Servicios</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+</header>
+
+<main>
+
+<!-- SECCIÓN NOSOTROS -->
+
+<section id="nosotros">
+
+    <h2>Nosotros</h2>
+
+    <h3>Objetivo</h3>
+
+    <p>
+        Educar a los jóvenes sobre los efectos positivos y negativos
+        de las redes sociales y promover un uso responsable y equilibrado.
+    </p>
+
+    <h3>Misión</h3>
+
+    <p>
+        Brindar información sencilla y útil para que los jóvenes
+        comprendan cómo las redes sociales pueden influir en su vida
+        y aprendan a utilizarlas de manera consciente.
+    </p>
+
+    <h3>Visión</h3>
+
+    <p>
+        Ser un proyecto reconocido por ayudar a los jóvenes a tener
+        una relación más equilibrada, consciente y saludable con las
+        redes sociales.
+    </p>
+
+</section>
+
+
+<!-- SECCIÓN PRODUCTOS O SERVICIOS -->
+
+<section id="productos">
+
+    <h2>Productos o Servicios</h2>
+
+    <p>
+        Nuestro principal producto es un libro digital que explica
+        cómo las redes sociales pueden afectar positiva y negativamente
+        a las personas, especialmente a los jóvenes.
+    </p>
+
+    <div class="galeria">
+
+        <div>
+            <img
+                src="https://images.unsplash.com/photo-1611162617474-5b21e879e113?auto=format&fit=crop&w=800&q=80"
+                alt="Redes sociales">
+            <p>Redes sociales</p>
+        </div>
+
+        <div>
+            <img
+                src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=800&q=80"
+                alt="Tecnología">
+            <p>Tecnología</p>
+        </div>
+
+        <div>
+            <img
+                src="https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=800&q=80"
+                alt="Comunicación digital">
+            <p>Comunicación digital</p>
+        </div>
+
+        <div>
+            <img
+                src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=80"
+                alt="Bienestar digital">
+            <p>Bienestar digital</p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- SECCIÓN CONTACTO -->
+
+<section id="contacto">
+
+    <h2>Contáctenos</h2>
+
+    <p><strong>Proyecto:</strong> Impacto Digital</p>
+
+    <p><strong>Ciudad:</strong> Bogotá, Colombia</p>
+
+    <p><strong>Teléfono:</strong> 300 000 0000</p>
+
+    <p><strong>Correo:</strong> impactodigital@gmail.com</p>
+
+
+    <h3>Formulario de contacto</h3>
+
+    <p>
+        Si deseas comunicarte con nosotros, completa el siguiente formulario.
+    </p>
+
+    <form class="formulario">
+
+        <label for="nombre">Nombre completo:</label>
+
+        <input
+            type="text"
+            id="nombre"
+            name="nombre"
+            placeholder="Escribe tu nombre"
+            required>
+
+
+        <label for="correo">Correo electrónico:</label>
+
+        <input
+            type="email"
+            id="correo"
+            name="correo"
+            placeholder="Escribe tu correo"
+            required>
+
+
+        <label for="motivo">Motivo de contacto:</label>
+
+        <select id="motivo" name="motivo">
+
+            <option value="">Selecciona una opción</option>
+
+            <option value="informacion">
+                Solicitar información
+            </option>
+
+            <option value="producto">
+                Información sobre el producto
+            </option>
+
+            <option value="opinion">
+                Enviar una opinión
+            </option>
+
+            <option value="otro">
+                Otro
+            </option>
+
+        </select>
+
+
+        <label for="mensaje">Mensaje:</label>
+
+        <textarea
+            id="mensaje"
+            name="mensaje"
+            placeholder="Escribe tu mensaje"
+            required></textarea>
+
+
+        <button type="submit">
+            Enviar mensaje
+        </button>
+
+    </form>
+
+</section>
+
+</main>
+
+
+<!-- PIE DE PÁGINA -->
+
+<footer>
+
+    <p>© 2026 Impacto Digital</p>
+
+    <p>Isabella Reyes Pertuz</p>
+
+</footer>
+
+</body>
+</html>
